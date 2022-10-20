@@ -87,6 +87,13 @@ header #logo {
     color: white;
 }
 
+.maintext a:hover{
+    color: #FF8787;
+    background-color: #cddec0;
+    padding: 10px;
+    border-radius: 20px;
+}
+
 header nav a:hover {
     transform: scale(1.2);
     color: #FF8787;
@@ -96,6 +103,11 @@ header nav a:hover {
     transform: scale(1.2);
     font-size: 25px;
     border-radius: 10px;
+}
+
+header #logo:hover{
+    color: royalblue;
+    transform: scale(1.05);
 }
 
 /*COURSES*/
